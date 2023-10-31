@@ -130,7 +130,7 @@ Item {
             "coverColor2": "#29FFFFFF",
             "coverColor3": "#44FFFFFF",
             "coverColor4": "#55FFFFFF"
-        }
+        },
         "OceanBlue": {
             "themeTitle": "海洋蓝",
             "tabBarColor": "#0F4C75",
