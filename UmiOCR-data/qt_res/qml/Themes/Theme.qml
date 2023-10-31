@@ -45,6 +45,11 @@ Item {
         "Default Light": qsTr("珍珠白"),
         "Default Dark": qsTr("云墨黑"),
         "Cyberpunk": qsTr("赛博朋克"),
+        "OceanBlue": qsTr("海洋蓝"),
+        "Vintage Brown": qsTr("复古棕"),
+        "Pastel Pink": qsTr("猛男粉"),
+        "Nature Green": qsTr("自然绿"),
+        "Midnight Purple": qsTr("午夜紫"),
     }
     // 默认主题 / 当前读入的主题配置
     property var all: {
@@ -125,6 +130,85 @@ Item {
             "coverColor2": "#29FFFFFF",
             "coverColor3": "#44FFFFFF",
             "coverColor4": "#55FFFFFF"
+        }
+        "OceanBlue": {
+            "themeTitle": "海洋蓝",
+            "tabBarColor": "#0F4C75",
+            "bgColor": "#F0F5F9",
+            "textColor": "#333",
+            "subTextColor": "#777",
+            "yesColor": "#00A8E8",
+            "noColor": "#FF5858",
+            "specialBgColor": "#C7EEFF",
+            "specialTextColor": "#0085A1",
+            "coverColor1": "#11000000",
+            "coverColor2": "#22000000",
+            "coverColor3": "#33000000",
+            "coverColor4": "#55000000"
+        },
+        
+        "Vintage Brown": {
+            "themeTitle": "复古棕",
+            "tabBarColor": "#603C29",
+            "bgColor": "#F2E8DA",
+            "textColor": "#56413E",
+            "subTextColor": "#8F6F65",
+            "yesColor": "#B86F52",
+            "noColor": "#CF4B3D",
+            "specialBgColor": "#FFDAB9",
+            "specialTextColor": "#8A4B08",
+            "coverColor1": "#11000000",
+            "coverColor2": "#22000000",
+            "coverColor3": "#33000000",
+            "coverColor4": "#55000000"
+        },
+            
+        "Pastel Pink": {
+            "themeTitle": "猛男粉",
+            "tabBarColor": "#FFDDE1",
+            "bgColor": "#FFF4F6",
+            "textColor": "#8C3A4F",
+            "subTextColor": "#B17D8D",
+            "yesColor": "#FF85A2",
+            "noColor": "#FF4D6B",
+            "specialBgColor": "#FFC2D6",
+            "specialTextColor": "#FF1493",
+            "coverColor1": "#11000000",
+            "coverColor2": "#22000000",
+            "coverColor3": "#33000000",
+            "coverColor4": "#55000000"
+        },
+            
+        "Nature Green": {
+            "themeTitle": "自然绿",
+            "tabBarColor": "#4D774E",
+            "bgColor": "#E4F5E0",
+            "textColor": "#3D6D3A",
+            "subTextColor": "#6B9F6A",
+            "yesColor": "#8DC63F",
+            "noColor": "#6CAB32",
+            "specialBgColor": "#AFF07E",
+            "specialTextColor": "#008000",
+            "coverColor1": "#11000000",
+            "coverColor2": "#22000000",
+            "coverColor3": "#33000000",
+            "coverColor4": "#55000000"
+        },
+            
+        "Midnight Purple": {
+            "themeTitle": "午夜紫",
+            "tabBarColor": "#2D112C",
+            "bgColor": "#322947",
+            "textColor": "#D6D1E5",
+            "subTextColor": "#AFA6C4",
+            "yesColor": "#B081B9",
+            "noColor": "#D25FD1",
+            "specialBgColor": "#1F0E1E",
+            "specialTextColor": "#8B008B",
+            "coverColor1": "#11000000",
+            "coverColor2": "#22000000",
+            "coverColor3": "#33000000",
+            "coverColor4": "#55000000"
         }
     }
     // 主题控制器
